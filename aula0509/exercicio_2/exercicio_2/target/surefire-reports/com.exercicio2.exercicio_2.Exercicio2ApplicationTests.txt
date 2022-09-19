@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.exercicio2.exercicio_2.Exercicio2ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.344 s <<< FAILURE! - in com.exercicio2.exercicio_2.Exercicio2ApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messageConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'store.rabbitmq.exchange' in value "${store.rabbitmq.exchange}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'store.rabbitmq.exchange' in value "${store.rabbitmq.exchange}"
+
